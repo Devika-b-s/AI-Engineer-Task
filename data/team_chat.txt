@@ -1,0 +1,107 @@
+03/10/26, 9:14 PM - Messages and calls are end-to-end encrypted. No one outside of this chat, not even WhatsApp, can read or listen to them. Tap to learn more.
+03/10/26, 9:14 PM - Aarav created group "CampusCart 🛒 Final Year"
+03/10/26, 9:14 PM - Aarav added you
+03/10/26, 9:14 PM - Aarav: group bana diya. final year project ke liye idea finalise karte hain
+03/10/26, 9:15 PM - Priya: CampusCart idea still on? marketplace for college students to buy/sell used books, cycles etc
+03/10/26, 9:15 PM - Rohan: yes yes. I'm in
+03/10/26, 9:17 PM - Meera: same. but who's building what
+03/10/26, 9:18 PM - Aarav: stack pehle decide karo. I say React + Firebase, fast hai
+03/10/26, 9:19 PM - Rohan: firebase mat lo yaar, vendor lock-in. Django + Postgres, mujhe aata hai
+03/10/26, 9:21 PM - Kabir: Django fine. frontend React hi rakhte hain
+03/10/26, 9:22 PM - Priya: +1 Django + React
+03/10/26, 9:23 PM - Aarav: ok ok fine. Django backend, React frontend. final
+03/10/26, 9:24 PM - Meera: Postgres ya SQLite?
+03/10/26, 9:25 PM - Rohan: Postgres. deploy pe bhi chalega
+03/10/26, 9:26 PM - Aarav: done. Postgres
+03/10/26, 9:40 PM - Kabir: good night guys 😴
+05/10/26, 8:02 PM - Aarav: Task split karte hain:
+Rohan - auth (login/signup)
+Priya - listings UI
+Meera - payments + report/PPT
+Kabir - search + chat between buyer/seller
+Main - deployment
+05/10/26, 8:05 PM - Rohan: done
+05/10/26, 8:06 PM - Priya: ok
+05/10/26, 8:10 PM - Meera: payments Razorpay se karungi
+05/10/26, 8:11 PM - Kabir: search aur chat dono? thoda zyada hai but ok
+05/10/26, 8:12 PM - Aarav: dekhte hain, zyada pada to bolna
+09/10/26, 10:40 PM - Priya: listing page ka first version push kar diya. check karo
+09/10/26, 10:41 PM - Priya: <Media omitted>
+09/10/26, 10:42 PM - Priya: ye screenshot hai, filters abhi nahi hain
+09/10/26, 10:55 PM - Rohan: nice. clean hai
+09/10/26, 10:56 PM - Aarav: color thoda dull hai but fine
+12/10/26, 7:30 PM - Meera: Reminder: report due 3 days before demo day. Demo day 4 Dec so report 1 Dec
+12/10/26, 7:32 PM - Aarav: noted
+12/10/26, 7:33 PM - Kabir: mujhe lagta hai hum late chal rahe hain
+12/10/26, 7:35 PM - Rohan: auth kal tak khatam. promise
+12/10/26, 7:36 PM - Priya: Sure Rohan, "kal tak" 🙄 you said that last week too
+12/10/26, 7:37 PM - Rohan: 😂 this time pakka
+13/10/26, 8:15 AM - Aarav: good morning team ☀️
+16/10/26, 9:05 PM - Aarav: domain lena hai. GoDaddy pe campuscart.in Rs 800/year dikha raha
+16/10/26, 9:07 PM - Meera: Rs 800 theek hai. 5 log hain, split kar lenge <This message was edited>
+16/10/26, 9:20 PM - Kabir: Namecheap pe check karo, I think cheaper
+16/10/26, 9:41 PM - Aarav: haan Namecheap pe Rs 650. wahi se leta hoon
+16/10/26, 9:42 PM - Priya: perfect
+16/10/26, 9:50 PM - Aarav: bought it. receipt bhej raha hoon
+16/10/26, 9:51 PM - Aarav: <Media omitted>
+16/10/26, 9:55 PM - Aarav: This message was deleted
+19/10/26, 6:15 PM - Kabir: guys chat feature mein websockets lagenge, thoda complex hai
+19/10/26, 6:16 PM - Kabir: chat main kar lunga. search koi aur le lo please
+19/10/26, 6:20 PM - Aarav: ok search baad mein dekhte hain
+19/10/26, 6:22 PM - Priya: meri UI pe kaam chal raha hai, I'm full
+20/10/26, 8:10 PM - Meera: bad news. Razorpay ko business KYC chahiye, humare paas nahi hai. Account activate nahi hoga
+20/10/26, 8:12 PM - Aarav: toh payments ka kya
+20/10/26, 8:13 PM - Rohan: fake payment page bana lo? UPI QR dikha do, manual confirm
+20/10/26, 8:15 PM - Meera: ok that works for demo. Razorpay drop. QR + manual confirm
+20/10/26, 8:16 PM - Aarav: agreed. final decision: no Razorpay, UPI QR manual
+24/10/26, 11:20 PM - Rohan: yaar mera semester project + internship dono, I'm overloaded. auth Kabir le sakta hai? auth ka 60% ho chuka hai, branch auth-wip dekh lena
+24/10/26, 11:22 PM - Kabir: mere paas chat hai already...
+24/10/26, 11:25 PM - Kabir: arre theek hai, auth bhi le leta hoon. but Rohan you do the DB schema and the tests then
+24/10/26, 11:26 PM - Rohan: deal. schema + tests mere
+24/10/26, 11:27 PM - Rohan: <Media omitted>
+24/10/26, 11:27 PM - Rohan: ye schema ka diagram, v1
+26/10/26, 9:00 PM - Priya: UI listing + filters done. Now doing seller dashboard
+26/10/26, 9:30 PM - Aarav: deployment ke liye mujhe AWS credits mil gaye? kisi ke paas hai
+26/10/26, 9:31 PM - Meera: Don't use AWS, free tier ka bill aa jata hai. Render ya Railway use karo
+26/10/26, 9:33 PM - Aarav: Render. decided.
+02/11/26, 8:45 PM - Kabir: GOOD NEWS. Razorpay test mode bina KYC ke chalta hai! maine integrate kar diya, checkout chal raha hai
+02/11/26, 8:46 PM - Aarav: wait really? test mode is enough for demo
+02/11/26, 8:47 PM - Meera: wow nice. then UPI QR ki zarurat nahi
+02/11/26, 8:48 PM - Priya: so we go back to Razorpay?
+02/11/26, 8:49 PM - Aarav: haan. Razorpay test mode final. QR wala scrap.
+02/11/26, 8:50 PM - Kabir: payments ab mere paas, Meera tum report pe focus karo
+02/11/26, 8:51 PM - Meera: thanks Kabir 🙏 I'll take report + PPT fully
+05/11/26, 6:10 PM - Aarav: URGENT. college ne demo day prepone kar diya. ab 27 Nov (Friday)
+05/11/26, 6:11 PM - Rohan: what?? 4 Dec tha na
+05/11/26, 6:12 PM - Aarav: haan mail aaya hai abhi. 27 Nov
+05/11/26, 6:13 PM - Meera: toh report ka deadline bhi change. 24 Nov?
+05/11/26, 6:14 PM - Aarav: haan shayad
+05/11/26, 6:20 PM - Kabir: ab to chat, auth, payments sab mere paas hai... 😅
+06/11/26, 11:05 PM - Rohan: schema v2 ready. Added 'orders' table
+06/11/26, 11:06 PM - Rohan: tests kal raat tak kar dunga
+06/11/26, 11:07 PM - Priya: Rohan "kal raat tak" 😅 ok
+07/11/26, 11:50 PM - Rohan: sorry yaar, tests nahi ho paye. kal pakka
+09/11/26, 5:30 PM - Priya: Correction. Sir se baat hui. Demo day 26 Nov (Thursday), 27 nahi. Notice mein typo tha
+09/11/26, 5:31 PM - Aarav: ohh. ok so 26 Nov final
+09/11/26, 5:32 PM - Meera: toh report 23 Nov
+09/11/26, 5:33 PM - Priya: yes. aur sir ne bola demo mein live deployed link chahiye, localhost allowed nahi
+09/11/26, 5:34 PM - Aarav: Render pe deploy kar raha hoon, 15 Nov tak ready
+09/11/26, 5:40 PM - Rohan: tests ab bhi pending hain, I'll do by this Sunday
+10/11/26, 9:12 PM - Kabir: auth done, merged. chat 70%
+10/11/26, 9:13 PM - Kabir: payments webhook bacha hai
+10/11/26, 9:14 PM - Priya: great. search ka kya? abhi bhi koi nahi le raha
+10/11/26, 9:15 PM - Aarav: Priya tum kar sakti ho? UI mein filters hai already
+10/11/26, 9:16 PM - Priya: seller dashboard pe hoon. search mere liye mushkil hoga
+10/11/26, 9:17 PM - Meera: Kabir ya Rohan?
+10/11/26, 9:18 PM - Rohan: main schema + tests mein hoon. search Saturday ko discuss karte hain
+12/11/26, 8:00 PM - Aarav: Saturday 14 Nov ko team meet rakhte hain, 4 PM, college library. Who's coming?
+12/11/26, 8:01 PM - Priya: I'm in
+12/11/26, 8:02 PM - Meera: Coming
+12/11/26, 8:03 PM - Rohan: yes
+12/11/26, 8:05 PM - Kabir: can't make it, family function. but call pe join kar lunga
+12/11/26, 8:10 PM - Aarav: ok agenda: search kaun karega + deployment status
+12/11/26, 8:11 PM - Priya: logo ke liye 2 options bheje hain, dekho
+12/11/26, 8:11 PM - Priya: <Media omitted>
+12/11/26, 8:12 PM - Rohan: Aarav you're also coming right?
+12/11/26, 8:12 PM - Meera: second wala better lag raha, blue wala
+12/11/26, 8:13 PM - Aarav: obviously 😂
