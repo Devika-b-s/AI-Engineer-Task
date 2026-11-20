@@ -52,8 +52,7 @@ Write **at least 10 questions** about this chat, with the correct answers worked
 ### Step 3: Wrap up
 
 - Fill in `docs/FINAL_NOTES.md`.
-- Record a **3-minute screen recording**: show it answering questions, including one it gets wrong, and say why.
-- Put the link to the video in `FINAL_NOTES.md`.
+- Upload to a Repo
 
 ---
 
